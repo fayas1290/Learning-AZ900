@@ -1,4 +1,4 @@
-# Learning-AZ900
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/b914c7f1-6ab5-43db-8fd2-667cba74f171)# Learning-AZ900
 
 Explore Microsoft Azure Core Services
 
@@ -862,6 +862,7 @@ Explore Azure Active Directory (AD)
 			§ Let you manage how your cloud, or on prem devices access your corporate data
 	AD can be used for external or internal resources as well
 	
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/6c765abe-2ea5-4e41-af93-cee43be73e9a)
 
 	
 	
@@ -905,6 +906,7 @@ MFA comes as a part of following Microsoft Azure Service Offerings
 
 When in Azure AD, go to Users and theres a tab for MFA
 You get to this page once clicked on it
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/c88a9348-272f-4dfa-b999-c49a758a6426)
 
 	• Depending on the license you have you can see which users have MFA and which ones don’t
 	• You can enable and disable MFA for each user
@@ -913,6 +915,7 @@ You get to this page once clicked on it
 		○ In this tab you can also choose how many verification methods users should complete eg: call to phone, text message to phone, notification through mobile app
 		○ In this tab we can also configure to remember  multi factor auth  for how many number of days so that users will not be prompted for a second MFA if they have already gone through a verification  within the number of days you choose there
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/c49be2aa-00d4-4dbc-9893-5f2457b53855)
 
 
 Examine Microsoft Azure Security, Privacy, Compliance,
@@ -935,6 +938,7 @@ The following screencapture is an example of Microsoft Azure Information protect
 
 In this example the administrator has configured a label with rules that detect sensitive data
 When the user saves a microsoft word document containing a credit card number, a custom tooltip is displayed, the tooltip recommends labelling the file as confidential, all employees etc
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/5096c083-051e-4d93-b4a4-b28318c1b622)
 
 	• AIP can be purchased either as a standalone solution or through on eof the following Micorosft licensing suite
 		○ Enterprise mobility plus security
@@ -984,8 +988,12 @@ Microsoft Azure Fundamentals [Exam AZ-900] Full Course
 When you come to a particular service that you are going to frequently access, if you hover your mouse over its icon you can see a star on the corner of the  overlay, click on it  and it will feature on your control pane on the left so you don’t have to search for that option every time
 
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/f2287eea-1a6f-4550-bf36-302ffa7874ee)
+
 
 Security center provides recommendations based on your configurations, resources and networks
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/f91e971e-bd4c-43ad-9361-48dd39ae7e72)
 
 
 
@@ -1124,6 +1132,8 @@ Azure Portal > All Services > Azure Policy
 
 Within the policy configurator, you can see all the policy that you have created
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/fb378fb7-2f84-4e07-8fff-00867d414b81)
+
 Based on the policy you would be able to see your overall compliance because once you apply these policies to a scope, a scope could be your resource group or it could be your subscription and then these policies are going to go and check the compliance of these or whatever the condition you put apply on top of your policy
 
 	• If you go to the Definitions tab on the left, we can see the definitions already available in Azure Policy by default, you can filter these by types, categories etc
@@ -1135,6 +1145,8 @@ So the use case scenario for this is, you apply this on a particular resource gr
 The Assignments tab, here you can see all the assignments you have made within your subscription or you can create a new initiative or a new policy as well
 
 We are gonna create a new policy,(click on Assign Policy in the Assignments tab) within the policy we have a scope, exclusions and the policy definition. Scope is nothing but where you gonna apply this policy, you can start with your subscription and then you can narrow it down by resource groups. If you don’t wanna apply to resource group you can leave it at the subscription level itself
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/4c3ac41a-277c-4d80-8a70-0cd9124e3ab8)
 
 
 
@@ -1158,8 +1170,12 @@ Even though validation will be successful we shall not be able to create the pol
 
 If you click on the error that you receive when the storage account cannot be successfully created in a location not specified in the policy, you see a pane on the right that shows that a plicy is apllied
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/92382598-c5f4-4822-9d47-7ce88769bc2b)
+
 
 Now we go to the policy and see if it is in compliance, when you click on the policy , it basically shows you if its compliant or not, compliance is nothing but it goes through the  whole resources to make sure that there is no other resources which Is outside of this boundary
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/8bb741d8-6e8a-4593-a0c9-7b911ed9a8d7)
 
 
 We now go and delete the assignment of this policy/delete policy and create another storage account and check if it can be successful
@@ -1203,6 +1219,8 @@ First we are gonna create a resource group to test this role assignment task
 		○ Lets explore Roles, click on Roles tab
 		○ You can see there are lots of built in roles available within Azure by default, you can also crate a custom one. Most probably the one you are looking for should be built inn
 		○ 
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/921b91c0-31a1-49be-8cfd-50d12b62dbd2)
 		
 		Next to these roles there an information button that lets you know what sort of control you can assign when you assign somebody this particular role. Owner for example have full control
 		Reader can only read and not change anytrhing etc
@@ -1210,6 +1228,8 @@ First we are gonna create a resource group to test this role assignment task
 		If we go to the Role Assingments tab this is where you will be able to Add/Remove a user for particular role assignments. By default you can see who is the owner for subscripton. The owner will have 'owner' role assigned by default
 		
 		You can click on +Add to add role assignments, before assigning a role you need to know what role you are assigning to a user, in this we will go with a 'virtual machine contributor role' and leave the 'Assign Access to' - 'Azure AD user, group or service principle' that means all the eresources within your Azure and Azure AD. Under select field ypu type in the username or the email address of a user to assign a permission for that user for this resource group
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/e527dd67-2077-4700-95ac-1272fe852ea4)
 		
 		
 		Now that you have successfully added a user on a particular role, you can ofcourse go back to the resource group and review that role assignments as well
@@ -1224,8 +1244,12 @@ You as an owner can always go under the role assignments and delete or add a new
 We shall go ahead and create another role assignments selecting 'Role' as 'Reader' and 'Assign Access to' - 'Azure AD user, group or service principle' and select a random user, here Summer Smith
 This user will only have reader access to this particular resource group(highlighted in the pic below)
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/5450fff4-b274-4b37-afa0-e79fa2b2b64c)
+
 
 Summer as a user when visits the resource group section will only be able to see the resources in AZ-900-TEST-RG resource group where as Morty who has "Reader" access to the whole subscription will be able to see resources in other RGs in the subscription as well. 
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/48673086-6658-42b2-81d5-9e1ac501e5a7)
 
 If you go to a resource group and select 'Activity Log' under 'Overview' tab on the left pane, and click on 'Add Filter' and in first drop down select operation and in next drop down choose 'Create role assignment' you shall be able to see history of the selected operation type in that took place in the resource group
 
@@ -1248,6 +1272,8 @@ Module 04: Azure Governance Methodologies
 There are two types of locks
 	1. Cannot delete
 	2. Read only
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/e84ade96-4b93-4116-9b2a-2bf93282c4ff)
 
 
 Sometimes you may need to lock a subscription or a resource group or a resource to prevent other users in an organization from accidentally deleting or modifying critical resources
@@ -1280,6 +1306,8 @@ In the resource group on the LHS, under settings, you can see the Locks tab
 	• In Lock Type, choose from Delete or Read Only
 		○ In this case we select Delete
 This will prevent resources in this RG from being deleted or deletion of the RG itself
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/8bcfe731-4082-412b-aebc-9a3815d5ced7)
 
 
 
@@ -1464,6 +1492,8 @@ Microsoft compliance framework for online services map their controls to multipl
 
 With the following image you get a level of compliance offering from the following image
 
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/eb76a801-dd82-4026-ac8d-f5758109a7db)
+
 
 
 Identify Microsoft Privacy Statement
@@ -1609,7 +1639,8 @@ Lifecycle
 	• you can use Azure subscription to define boundaries around your Azure products, services and resources
 
 
-Taking it easy on Notes
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/82c05525-ffd8-4700-a61e-641c9d48184a)
+
 
 
 
@@ -1618,6 +1649,13 @@ There are three primary factors affecting costs:
 Resource Type
 Services
 Location
+
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/f9ff0c68-ee8a-41f2-a550-561ac04c5831)
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/af2009c9-43db-421c-86e1-6349ee207535)
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/3c48774f-e8ef-4c0d-a5b9-81c34a41b29c)
 
 
 
@@ -1643,6 +1681,10 @@ product and service.
 product fails to meet the designated
 availability commitments.
 
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/6ff17e0e-18b8-427a-b004-3b5d4eb3eb87)
+
+![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/f33e4e4e-2ba2-41b0-a6b9-f2cd9628a433)
 
 
 
