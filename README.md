@@ -1653,6 +1653,3 @@ Preview versions have limitations , not suitable for productions
 
 Availability Zones
 Are data centers set up to be an isolation boundary from others in the region with their own power cooling and networking, if one zone in a region goes down other availavility zone in the region continue to work
-![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/6bbb21d5-cf65-4d8f-b414-4f40cc442c5f)
-
-
