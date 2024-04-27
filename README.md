@@ -1,4 +1,4 @@
-![image](https://github.com/fayas1290/Learning-AZ900/assets/157561213/b914c7f1-6ab5-43db-8fd2-667cba74f171)# Learning-AZ900
+# Learning-AZ900
 
 Explore Microsoft Azure Core Services
 
